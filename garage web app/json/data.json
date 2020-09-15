@@ -1,32 +1,24 @@
-
-    "data": [
-        {
-           "name":"A1 Garage",
-           "address":"pimpri",
-            "city":"pune",
-           "contact":"9087654543"
-           
-        },
-        {
-            "name":"Mane Garage",
-           "address":"kothrud",
-            "city":"pune",
-           "contact":"908766565"
-            
-         },
-         {
-            "name":"Rajesh Garage",
-           "address":"shivaji nagar",
-            "city":"pune",
-           "contact":"9087569543"
-            
-         },
-         {
-            "name":"saha Garage",
-           "address":"pimpri",
-            "city":"pune",
-           "contact":"2687654543"
-            
-         }
-       
-    ]
+[
+    {
+       "name":"A1 Garage",
+       "address":"pimpri",
+       "city":"pune",
+       "contact":"9087654543"
+    },
+    {
+       "name":"Mane Garage",
+       "address":"kothrud",
+       "city":"pune",
+       "contact":"908766565"
+    },{
+       "name":"Rajesh Garage",
+       "address":"shivaji nagar",
+       "city":"pune",
+       "contact":"9087569543"
+    },{
+       "name":"saha Garage",
+       "address":"pimpri",
+       "city":"pune",
+       "contact":"2687654543"
+    }
+]
