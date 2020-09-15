@@ -1,23 +1,32 @@
-{
+
     "data": [
         {
-           "name":"pratik",
-           "address":"gadhinglaj",
-           "clas":"bcs"
+           "name":"A1 Garage",
+           "address":"pimpri",
+            "city":"pune"
+           "contact":"9087654543"
            
         },
         {
-            "name":"soham",
-            "address":"kolhapur",
-            "clas":"bcs"
+            "name":"Mane Garage",
+           "address":"kothrud",
+            "city":"pune"
+           "contact":"9087654543"
             
          },
          {
-            "name":"sandip",
-            "address":"pune",
-            "clas":"bcs"
+            "name":"Rajesh Garage",
+           "address":"shivaji nagar",
+            "city":"pune"
+           "contact":"9087654543"
+            
+         },
+         {
+            "name":"saha Garage",
+           "address":"pimpri",
+            "city":"pune"
+           "contact":"9087654543"
             
          }
        
     ]
-}
