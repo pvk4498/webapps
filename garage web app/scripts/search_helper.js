@@ -55,16 +55,35 @@ $(function(){
 });
 
 
-//  function fetch(){
-//      fetch("https://pvk4498.github.io/json/catering.json")
-//      .then(response => response.json())
-//     .then(rsp => {
-//          console.log(rsp)
-       
-//     })
-//  }
+function get_json(){
+  var name=[];
+fetch("https://pvk4498.github.io/webapps/garage%20web%20app/json/data.json")
+    .then(function(resp){
+      return resp.json();
+    })
+    .then(function(data){
+        
+       document.getElementById("card").innerHTML = `
+        ${data.map(function(value) {
+          return ` 
+          <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">${value.name}</div>
+              <div class="card-body text-primary">
+                <h5 class="card-title">${value.address}</h5>
+                <p class="card-text">${value.city}</p>
+                <p class="card-text">${value.contact}</p>
+              </div>
+           </div>
+          </div>
+           `
+        }).join("")}
+       `
+    });  
+  
+  }
 
-//  fetch()
+  get_json();
+
 
 
 
