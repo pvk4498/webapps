@@ -3,42 +3,50 @@
        "name":"A1 Garage",
        "address":"pimpri",
        "city":"pune",
-       "contact":"9087654543"
+       "contact":"9087654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     },
     {
        "name":"Mane Garage",
        "address":"kothrud",
        "city":"pune",
-       "contact":"908766565"
+       "contact":"908766565",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
+        
     },{
        "name":"saha Garage",
        "address":"pimpri",
        "city":"pune",
-       "contact":"2687654543"
+       "contact":"2687654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     },
     {
        "name":"Shine Garage",
        "address":"karve nagar",
        "city":"pune",
-       "contact":"2687654543"
+       "contact":"2687654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     },
      {
        "name":"Sadguru Garage",
        "address":"wakad",
        "city":"pune",
-       "contact":"9687654543"
+       "contact":"9687654543",
+         "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     },
     {
        "name":"Ram Garage",
        "address":"wakad",
        "city":"pune",
-       "contact":"9687654543"
+       "contact":"9687654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     },
     {
      "name":"Mauli Garage",
        "address":"Kathraj",
        "city":"pune",
-       "contact":"6958654543"
+       "contact":"6958654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     }
     
 ]
