@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Garage search engine</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/newsor.css">
+
+
+</head>
+
+<body>
+
+  <div class="container my-4 w-100">
+    <div id="mylist" class="card">
+      <div class="row m-3">
+        <div class="col-3">Garage Search Engine</div>
+        <div class="col-8">
+          <input type="search" name="search" class="search form-control" placeholder="Search here">
+        </div>
+        <div class="col-1">
+          <button type="search" class="btn btn-danger">Clear</button>
+        </div>
+      </div>
+      <ul class="list list-group list-group-flush"></ul>
+      <div class="d-flex justify-content-center mt-3">
+        <ul class="pagination"><li class="page active"></li></ul>
+      </div>
+    </div>
+    <div style="display:none">
+      <li class="list-group-item" id="myitem">
+        <div id="main-div">
+          <img src="" class="image" alt="..." width="200px" height="200px" class="rounded d-block">
+          <div id="sub-div">
+            <h4 class="name" id="name"></h4>
+            <h4 class="address"></h4>
+            <h5 class="city"></h5>
+            <h5 class="contact"></h5>
+            <button class="btn btn-primary" onclick="get()">View Details</button>
+          </div>
+        </div>
+
+      </li>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="scripts/search_helper.js"></script>
+</body>
+
+</html>
