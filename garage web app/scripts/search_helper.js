@@ -29,5 +29,9 @@ function handleResult(result){
      
    var userList = new List('mylist',options,result);
    
+   $('#clear-btn').click(function() {
+    $('#search').val('');
+    userList.search();
+ });
 }
 
