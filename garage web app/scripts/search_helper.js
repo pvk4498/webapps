@@ -16,12 +16,17 @@ function handleResult(result){
   console.log(result);
 
    var options={
-        valueNames:['name','address','city','contact','image'],
+        valueNames:['name',
+                    'address'
+                    ,'city'
+                    ,'contact',
+                    { name: 'image', attr: 'src' } 
+                  ],
         item:'myitem',
         page: 3,
         pagination: true
-      }
-     document.getElementsByTagName('img').src = 'https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg'; 
+      };
+     
    var userList = new List('mylist',options,result);
    
 }
