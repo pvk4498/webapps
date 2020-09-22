@@ -47,6 +47,27 @@
        "city":"pune",
        "contact":"6958654543",
         "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
+    },
+    {
+     "name":"Wheels Garage",
+       "address":"karve nagar",
+       "city":"pune",
+       "contact":"6958654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
+    },
+    {
+     "name":"Patne Garage",
+       "address":"Wagholi",
+       "city":"pune",
+       "contact":"6958654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
+    },
+    {
+     "name":"Unity Garage",
+       "address":"swagate",
+       "city":"pune",
+       "contact":"6958654543",
+        "image":"https://pvk4498.github.io/webapps/garage%20web%20app/images/img.jpg"
     }
     
 ]
