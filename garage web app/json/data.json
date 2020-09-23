@@ -1,5 +1,6 @@
 [
     {
+        "id":"1",
        "name":"A1 Garage",
        "address":"pimpri",
        "city":"pune",
@@ -7,6 +8,7 @@
         "image":"images/img.jpg"
     },
     {
+        "id":"2",
        "name":"Mane Garage",
        "address":"kothrud",
        "city":"pune",
@@ -14,6 +16,7 @@
         "image":"images/img2.jpg"
         
     },{
+        "id":"3",
        "name":"saha Garage",
        "address":"pimpri",
        "city":"pune",
@@ -21,6 +24,7 @@
         "image":"images/img.jpg"
     },
     {
+        "id":"4",
        "name":"Shine Garage",
        "address":"karve nagar",
        "city":"pune",
@@ -28,6 +32,7 @@
         "image":"images/img.jpg"
     },
      {
+         "id":"5",
        "name":"Sadguru Garage",
        "address":"wakad",
        "city":"pune",
@@ -35,6 +40,7 @@
          "image":"images/img.jpg"
     },
     {
+        "id":"6",
        "name":"Ram Garage",
        "address":"wakad",
        "city":"pune",
@@ -42,6 +48,7 @@
         "image":"images/img.jpg"
     },
     {
+        "id":"7",
      "name":"Mauli Garage",
        "address":"Kathraj",
        "city":"pune",
@@ -49,6 +56,7 @@
         "image":"images/img.jpg"
     },
     {
+        "id":"8",
      "name":"Wheels Garage",
        "address":"karve nagar",
        "city":"pune",
@@ -56,6 +64,7 @@
         "image":"images/img.jpg"
     },
     {
+        "id":"9",
      "name":"Patne Garage",
        "address":"Wagholi",
        "city":"pune",
@@ -63,6 +72,7 @@
         "image":"images/img.jpg"
     },
     {
+        "id":"10",
      "name":"Unity Garage",
        "address":"swagate",
        "city":"pune",
