@@ -15,7 +15,7 @@
        "city":"pune",
        "contact":"908766565",
         "image":"images/img2.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=this.id"
         
     },{
         "id":"3",
