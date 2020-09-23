@@ -1,12 +1,12 @@
 [
     {
-        "id":"1",
+        
        "name":"A1 Garage",
        "address":"pimpri",
        "city":"pune",
        "contact":"9087654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=1"
     },
     {
         "id":"2",
@@ -15,7 +15,7 @@
        "city":"pune",
        "contact":"908766565",
         "image":"images/img2.jpg",
-        "link":"view-detail-page.html?id=this.id"
+        "link":"view-detail-page.html?id=2"
         
     },{
         "id":"3",
@@ -24,7 +24,7 @@
        "city":"pune",
        "contact":"2687654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=3"
     },
     {
         "id":"4",
@@ -33,7 +33,7 @@
        "city":"pune",
        "contact":"2687654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=4"
     },
      {
          "id":"5",
@@ -42,7 +42,7 @@
        "city":"pune",
        "contact":"9687654543",
          "image":"images/img.jpg",
-         "link":"view-detail-page.html?id="+this.id
+         "link":"view-detail-page.html?id=5"
     },
     {
         "id":"6",
@@ -51,7 +51,7 @@
        "city":"pune",
        "contact":"9687654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=6"
     },
     {
         "id":"7",
@@ -60,7 +60,7 @@
        "city":"pune",
        "contact":"6958654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=7"
     },
     {
         "id":"8",
@@ -69,7 +69,7 @@
        "city":"pune",
        "contact":"6958654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=8"
     },
     {
         "id":"9",
@@ -78,7 +78,7 @@
        "city":"pune",
        "contact":"6958654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=9"
     },
     {
         "id":"10",
@@ -87,7 +87,7 @@
        "city":"pune",
        "contact":"6958654543",
         "image":"images/img.jpg",
-        "link":"view-detail-page.html?id="+this.id
+        "link":"view-detail-page.html?id=10"
     }
     
 ]
