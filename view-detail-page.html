@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Details Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/newsor.css">
+
+</head>
+
+<body onload="getId()">
+    <div class="container">
+        <div class="container" id="main_container">
+            <div class="row">
+                <div class="col-3">Garage Search Engine</div>
+                <div class="col-7">
+                    <input type="search" name="search" id="search" class="search form-control"
+                        placeholder="Search here">
+                </div>
+                <div class="col-2">
+                    <button type="clear" id="clear-btn" class="btn btn-danger">Clear</button>
+                </div>
+            </div>
+            <ul class="list list-group list-group-flush"></ul>
+        </div>
+
+
+
+        <hr>
+        <div style="display: none;">
+            <div class=" image main-inner-container" id="loading_container" style="background-image: url()">
+                <div class="card d-block">
+                    <h3 class="name"></h3>
+                    <h4 class="address"></h4>
+                    <h5 class="clas"></h5>
+                </div>
+                <div class="google-review-link">
+                    Google review link
+                </div>
+
+                <div class="middle-row">
+                    <div class="middle-row-left-container">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                        </iframe>
+                        <div class="gallery">
+                            <img src="" alt="Image 1" class="img-gallery">
+                            <img src="" alt="Image 2" class="img-gallery">
+                            <img src="" alt="Image 3" class="img-gallery">
+                        </div>
+                        <div id="googleMap">
+                        </div>
+                    </div>
+                    <div class="middle-row-right-container">
+                        <div class="services services-otherDetails">
+                            services and other details
+                        </div>
+                        <hr>
+                        <div class="map">
+                            Google map
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/view_detail.js"></script>
+
+
+
+
+</body>
+
+</html>
