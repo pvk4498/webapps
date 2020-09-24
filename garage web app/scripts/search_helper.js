@@ -14,13 +14,17 @@ var data = get_json_Data(url,handleResult);
 
 function handleResult(result){
   console.log(result);
+  
 
    var options={
-        valueNames:['name',
+        valueNames:[
+                    'id', 
+                    'name',
                     'address'
                     ,'city'
                     ,'contact',
-                    { name: 'image', attr: 'src' } 
+                    { name: 'image', attr: 'src' },
+                    { name: 'link', attr: 'href' }
                   ],
         item:'myitem',
         page: 3,
@@ -33,5 +37,14 @@ function handleResult(result){
     $('#search').val('');
     userList.search();
  });
+
+ 
+ 
 }
+function getId(){
+  var url = window.location.search;
+  url = url.replace("?", ''); // remove the ?
+  alert(url);
+  console.log(url)
+;}
 
