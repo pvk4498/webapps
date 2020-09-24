@@ -1,23 +1,11 @@
-{
-    "data": [
+[
         {
-           "name":"pratik",
-           "address":"gadhinglaj",
-           "clas":"bcs"
+          "name":"A1 Garage",
+          "address":"pimpri",
+           "city":"pune",
+          "contact":"9087654543",
+          "image":"images/img.jpg",
+          "services":"Two Wheeler and Four Wheeler"
            
-        },
-        {
-            "name":"soham",
-            "address":"kolhapur",
-            "clas":"bcs"
-            
-         },
-         {
-            "name":"sandip",
-            "address":"pune",
-            "clas":"bcs"
-            
-         }
-       
-    ]
-}
+        }
+]
