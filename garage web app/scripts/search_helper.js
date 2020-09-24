@@ -41,10 +41,4 @@ function handleResult(result){
  
  
 }
-function getId(){
-  var url = window.location.search;
-  url = url.replace("?", ''); // remove the ?
-  alert(url);
-  console.log(url)
-;}
 
