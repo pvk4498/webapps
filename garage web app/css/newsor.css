@@ -1,11 +1,74 @@
 html {
 	font-size: 14px;
 }
-
+body{
+	width: 80%;
+	margin: auto;
+}
 @media (min-width: 300px) {
 	.form-inline {
 		background: red;
 	}
+	.list-list-item{
+      background: #000;
+	}
+}
+@media (min-width:100px) and (max-width:636px){
+     .list-group-item{
+		margin: auto ;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	 }
+	 .main-div{
+		 display: flex;
+		 flex-direction: column;
+		 margin: auto;
+		 justify-content: center;
+		 align-items: center;
+	 }
+	 #nav{
+		 display: flex;
+		 flex-direction: column;
+		 margin: auto;
+		 justify-content: center;
+	 }
+	 #btn{
+		 display: flex;
+		 margin: auto;
+		 padding: 0;
+		 justify-content: center;
+	 }
+	 #input{
+		display: flex;
+		margin: auto;
+		justify-self: center;
+		width: 350px;
+	}
+	.pricing-header{
+		display: flex;
+		margin: auto;
+		align-self: center;
+	}
+}
+
+
+
+#btn{
+	display: flex;
+	margin: auto;
+	justify-content: left;
+}
+.w3-card-4{
+	width: 100%;
+}
+.main-div{
+	display:flex
+}
+.main-inner-div{
+	display: flex;
+	flex-direction:column;
+	margin:10px;
 }
 
 .container {
