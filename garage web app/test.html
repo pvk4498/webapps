@@ -9,7 +9,7 @@
   <meta name="generator" content="Jekyll v4.1.1">
   <title>Garage Search Engine</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+  <link rel="canonical" href="images/favicon.ico">
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,21 +39,21 @@
 <body style="width: 80%;">
   <div class="container">
     <div class="container" id="mylist">
-      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal">Garage Search Engine</h5>
-      <div class="container" id="header">
-        <div class="row" id="nav">
-          <div class="col-2"></div>
-          <div class=" col-6" id="input">
-            <input type="search" name="search" class="search form-control" id="search"
-              placeholder="Enter Your Location">
-          </div>
-          <div class="col-4" id="btn">
-            <button type="clear" id="clear-btn" class="btn btn-danger">Clear</button>
-          </div>
+      <div
+        class="nav d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <div class="col-md-3" id="header-heading">
+          <img src="images/garage-logo.png" alt="Logo">
         </div>
+        <div class="col-md-8">
+          <form class="form-inline">
+            <div class="input-group d-flex m-auto justify-content-center">
+              <input type="search" name="search" id="search" class="search input form-control" placeholder="Search">
+              <button type="clear" id="clear" class="btn btn-secondary"><li class="">clear</li></button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-1"></div>
       </div>
-    </div>
       <ul class="list list-group"></ul>
       <div class="d-flex justify-content-center mt-3">
         <ul class="pagination">
@@ -62,31 +62,30 @@
       </div>
     </div>
     <div style="display: none;">
-
       <div class="w3-container">
         <li class="list-group-item" id="myitem">
-          <div class="w3-card-4">
-            <h3 class="name"></h3>
-            <hr>
-            <div class="main-div">
-              <img src="" alt="Avatar" class=" image w3-left w3-ircle w3-margin-right img-thumbnail"
-                style="width:300px;height:150px">
-              <div class="main-inner-div">
-                <h4 class="address">Address</h4>
-                <h5 class="city">City</h5>
-                <h6 class="contact">Contat</h6>
-                <button class=" w3-dark-grey"><a href="" class="link">View Details</a></button>
-              </div>
+          <div class="row">
+            <div class="col-md-5" id="img-div">
+              <a href="#">
+                <img class=" image img-fluid rounded mb-3 mb-md-0" height="200px " width="300px" src="" alt="">
+              </a>
             </div>
+            <div class="col-md-5" id="data-container">
+              <h3 class="name"></h3>
+              <h4 class="address"></h4>
+              <h4 class="city"></h4>
+              <h4 class="contact"></h4>
+              <a class="btn btn-primary" href="">Details</a>
+            </div>
+            <div class="col-md-2"></div>
           </div>
+        </li>
       </div>
-      </li>
+
+
+
+
     </div>
-
-
-
-
-  </div>
   </div>
   </div>
   </div>
